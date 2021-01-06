@@ -64,7 +64,7 @@ def compute_earnings(buys_, sells_):
 
 
 # we create new lists so we dont modify the original
-compute_earnings([b for b in buys], [s for s in sells])
+compute_earnings(list(buys), list(sells))
 
 import matplotlib.pyplot as plt
 
